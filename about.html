@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About - Ladakh Explorer</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: #f5faff;
+      color: #2b3a42;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    nav {
+      background: #2b3a42;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 40px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: #ff9f1c;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 60px auto 40px;
+      background: #d8e8f9;
+      padding: 35px 40px;
+      border-radius: 18px;
+      display: flex;
+      gap: 40px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .about-text {
+      flex: 1 1 420px;
+    }
+
+    main h2 {
+      font-size: 36px;
+      margin-bottom: 25px;
+      letter-spacing: 1.2px;
+    }
+
+    main p {
+      font-size: 18px;
+      margin-bottom: 18px;
+    }
+
+    .about-img {
+      flex: 1 1 420px;
+      max-height: 400px;
+      overflow: hidden;
+      border-radius: 18px;
+    }
+
+    .about-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    footer {
+      margin-top: auto;
+      padding: 15px;
+      background: #2b3a42;
+      color: #f5faff;
+      font-size: 14px;
+      text-align: center;
+      letter-spacing: 0.8px;
+    }
+
+    @media (max-width: 768px) {
+      nav a {
+        margin: 0 10px;
+        font-size: 16px;
+      }
+
+      main {
+        margin: 30px 15px;
+        padding: 25px;
+        gap: 25px;
+      }
+
+      main h2 {
+        font-size: 28px;
+        text-align: center;
+      }
+
+      main p {
+        font-size: 16px;
+        text-align: justify;
+      }
+
+      .about-text,
+      .about-img {
+        flex: 1 1 100%;
+      }
+
+      .about-img {
+        max-height: 280px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a href="index.html">Welcome</a>
+    <a href="home.html">Home</a>
+    <a href="places.html">Places</a>
+    <a href="about.html">About</a>
+    <a href="adventure.html">Adventure</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <div class="about-text">
+      <h2>About Ladakh Explorer</h2>
+      <p>
+        Ladakh Explorer is your ultimate guide to the breathtaking landscapes,
+        rich culture, and thrilling adventures of Ladakh — the land of high
+        passes.
+      </p>
+      <p>
+        Whether you’re planning your first trip or returning to rediscover
+        Ladakh’s magic, we bring you curated destinations, adventure ideas, and
+        cultural insights.
+      </p>
+      <p>
+        Travel beyond the ordinary and let Ladakh inspire your soul.
+      </p>
+    </div>
+
+    <div class="about-img">
+      <img src="ladakh index.jpg" alt="Beautiful landscape of Ladakh">
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Ladakh Explorer | All Rights Reserved
+  </footer>
+</body>
+</html>
