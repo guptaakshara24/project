@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Places - Ladakh Explorer</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: #f5faff;
+      color: #2b3a42;
+      text-align: center;
+      padding-bottom: 60px;
+    }
+
+    nav {
+      background: #2f3e46;
+      padding: 15px;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: #e8f1f5;
+      text-decoration: none;
+      margin: 0 40px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: orange;
+    }
+
+    header {
+      padding: 20px 20px 30px;
+    }
+
+    header h2 {
+      font-size: 45px;
+      font-style: italic;
+      margin-bottom: 10px;
+      color: #324b50;
+    }
+
+    header p {
+      font-style: italic;
+      font-size: 20px;
+      max-width: 700px;
+      margin: 0 auto;
+      color: #455a64;
+    }
+
+    .places-grid {
+      max-width: 960px;
+      margin: 40px auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 50px;
+      padding: 0 30px;
+    }
+
+    .place-card {
+      background: #e1e9f0;
+      border-radius: 15px;
+      overflow: hidden;
+      text-align: left;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    }
+
+    .place-img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .place-content {
+      padding: 18px 22px;
+    }
+
+    .place-content h3 {
+      margin: 0 0 10px;
+      font-size: 22px;
+      color: #324b50;
+    }
+
+    .place-content p {
+      font-size: 16px;
+      margin: 0;
+      line-height: 1.5;
+    }
+
+    footer {
+      margin-top: 60px;
+      padding: 15px;
+      background: #3a4d55;
+      color: #f2e9d8;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      nav a {
+        margin: 0 10px;
+        font-size: 16px;
+      }
+
+      header h2 {
+        font-size: 28px;
+      }
+
+      header p {
+        font-size: 17px;
+      }
+
+      .place-img {
+        height: 160px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a href="index.html">Welcome</a>
+    <a href="home.html">Home</a>
+    <a href="places.html">Places</a>
+    <a href="about.html">About</a>
+    <a href="adventure.html">Adventure</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <header>
+    <h2>Must-Visit Places in Ladakh</h2>
+    <p>~Explore the stunning landscapes, high-altitude wonders, and cultural treasures of Ladakh.</p>
+  </header>
+
+  <section class="places-grid">
+      <div class="place-card">
+        <img src="pangoglake.jpg" class="place-img" alt="Pangong Lake">
+        <div class="place-content">
+          <h3>Pangong Lake</h3>
+          <p>
+            A breathtaking high-altitude lake famous for its crystal-clear waters that change color throughout the day.
+            Pangong Lake stretches across India and China and offers unforgettable scenic beauty.
+          </p>
+        </div>
+      </div>
+    </a>
+
+      <div class="place-card">
+        <img src="Khardung_La_Ladakh.jpg" class="place-img" alt="Khardung La Pass">
+        <div class="place-content">
+          <h3>Khardung La Pass</h3>
+          <p>
+            One of the highest motorable roads in the world, Khardung La offers thrilling rides and panoramic views.
+            It serves as the gateway to Nubra Valley and is a dream destination for bikers.
+          </p>
+        </div>
+      </div>
+    </a>
+
+    
+      <div class="place-card">
+        <img src="thiksey-monastery.jpg" class="place-img" alt="Monasteries">
+        <div class="place-content">
+          <h3>Monasteries</h3>
+          <p>
+            Ladakh is home to ancient Buddhist monasteries like Thiksey and Hemis.
+            These monasteries showcase beautiful architecture, spiritual traditions, and vibrant festivals.
+          </p>
+        </div>
+      </div>
+    </a>
+
+   
+      <div class="place-card">
+        <img src="leh palace.jpg" class="place-img" alt="Leh Palace">
+        <div class="place-content">
+          <h3>Leh Palace</h3>
+          <p>
+            A historic royal palace overlooking Leh town, offering insight into Ladakh’s royal heritage.
+            From the top, visitors can enjoy stunning views of the surrounding mountains.
+          </p>
+        </div>
+      </div>
+    </a>
+      <div class="place-card">
+        <img src="nubra valley.jpg" class="place-img" alt="Nubra Valley">
+        <div class="place-content">
+          <h3>Nubra Valley</h3>
+          <p>
+            Known for its cold desert landscapes, sand dunes, and double-humped camels.
+            Nubra Valley offers a unique blend of natural beauty and peaceful village life.
+          </p>
+        </div>
+      </div>
+    </a>
+
+  
+      <div class="place-card">
+        <img src="Zanskar Valley.jpg" class="place-img" alt="Zanskar Valley">
+        <div class="place-content">
+          <h3>Zanskar Valley</h3>
+          <p>
+            A remote and rugged valley famous for trekking, rafting, and dramatic mountain scenery.
+            Zanskar is perfect for adventure lovers seeking untouched natural beauty.
+          </p>
+        </div>
+      </div>
+    </a>
+
+      <div class="place-card">
+        <img src="Tso Moriri Lake.jpg" class="place-img" alt="Tso Moriri Lake">
+        <div class="place-content">
+          <h3>Tso Moriri Lake</h3>
+          <p>
+            A serene high-altitude lake located in a protected area.
+            It is home to migratory birds and offers a peaceful escape surrounded by mountains.
+          </p>
+        </div>
+      </div>
+    </a>
+      <div class="place-card">
+        <img src="shanti stupa.jpg" class="place-img" alt="Shanti Stupa">
+        <div class="place-content">
+          <h3>Shanti Stupa</h3>
+          <p>
+            A beautiful white-domed Buddhist stupa built to promote peace.
+            It offers stunning sunrise and sunset views over Leh town.
+          </p>
+        </div>
+      </div>
+    </a>
+      <div class="place-card">
+        <img src="Hemis National Park.jpg" class="place-img" alt="Hemis National Park">
+        <div class="place-content">
+          <h3>Hemis National Park</h3>
+          <p>
+            India’s largest national park and a haven for wildlife enthusiasts.
+            It is famous for snow leopards, Himalayan blue sheep, and rare bird species.
+          </p>
+        </div>
+      </div>
+    </a>
+
+  </section>
+
+  <footer>
+    © 2025 Ladakh Explorer | All Rights Reserved
+  </footer>
+</body>
+</html>

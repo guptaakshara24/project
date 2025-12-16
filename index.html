@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ladakh Explorer</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI", sans-serif;
+    }
+
+    body {
+        background: #000;
+        color: #fff;
+    }
+
+    .image-section {
+        position: relative;
+        height: 100vh;
+    }
+
+    .image-section img {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    nav {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        padding: 18px;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.35);
+    }
+
+    nav a {
+        color: #f5faff;
+        text-decoration: none;
+        margin: 0 40px;
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    nav a:hover {
+        color: #ffd166;
+    }
+
+    .content {
+        position: absolute;
+        top: 20%;
+        left: 0;
+        right: 0;
+        text-align: center;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    h1 {
+        font-size: 90px;
+        letter-spacing: 15px;
+        margin-bottom: 16px;
+        text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.8);
+    }
+
+    h2 {
+        font-size: 22px;
+        letter-spacing: 4px;
+        margin-bottom: 22px;
+        color: #ffb703;
+        text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+    }
+
+    .tagline {
+        max-width: 850px;
+        margin: 0 auto;
+        font-size: 22px;
+        font-style: italic;
+        line-height: 1.6;
+        padding: 18px 25px;
+        background:rgba(0, 0, 0, 0.45);;
+        border-radius: 8px;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.5);
+        font-size: 14px;
+    }
+
+    
+    @media (max-width: 768px) {
+
+        nav {
+            padding: 12px;
+        }
+
+        nav a {
+            margin: 0 10px;
+            font-size: 15px;
+        }
+
+        .content {
+            top: 18%;
+        }
+
+        h1 {
+            font-size: 60px;
+            letter-spacing: 2px;
+        }
+
+        h2 {
+            font-size: 18px;
+            letter-spacing: 3px;
+        }
+
+        .tagline {
+            font-size: 18px;
+            padding: 14px 18px;
+        }
+
+        footer {
+            font-size: 12px;
+            padding: 10px;
+        }
+    }
+
+    @media (max-width: 480px) {
+
+        nav a {
+            display: inline-block;
+            margin: 6px;
+            font-size: 14px;
+        }
+
+        .content {
+            top: 15%;
+        }
+
+        h1 {
+            font-size: 42px;
+            letter-spacing: 1px;
+        }
+
+        h2 {
+            font-size: 15px;
+            letter-spacing: 2px;
+        }
+
+        .tagline {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="image-section">
+    <img src="ladakhpangog.jpg" alt="Ladakh Landscape" />
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="places.html">Places</a>
+        <a href="about.html">About</a>
+        <a href="adventure.html">Adventure</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="content">
+        <h1>LADAKH</h1>
+        <h2>~ THE LAND OF HIGH PASSES ~</h2>
+        <p class="tagline">
+            “Ladakh is heaven on earth — where towering mountains,
+            endless skies, and pure silence create a timeless paradise.”
+        </p>
+    </div>
+
+    <footer>
+        &copy; 2025 Ladakh Explorer | All Rights Reserved
+    </footer>
+</div>
+
+</body>
+</html>

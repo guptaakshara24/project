@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact - Ladakh Explorer</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5faff;
+      color: #2b3a42;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #2f3e46;
+      padding: 15px;
+    }
+
+    nav a {
+      color: #e8f1f5;
+      text-decoration: none;
+      margin: 0 40px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: orange;
+    }
+
+    header {
+      padding: 20px 20px 20px;
+    }
+
+    header h2 {
+      font-style: italic;
+      font-size: 40px;
+      color: #324b50;
+      margin-bottom: 15px;
+    }
+
+    header p {
+      font-size: 18px;
+      color: #455a64;
+      font-style: italic;
+      max-width: 700px;
+      margin: 0 auto 30px;
+      line-height: 1.4;
+    }
+
+    form {
+      background-color: #e1e9f0;
+      max-width: 480px;
+      margin: 0 auto 40px;
+      padding: 20px;
+      border-radius: 5px;
+      text-align: left;
+      border: 1px solid #324b50;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: bold;
+      color: #324b50;
+      font-size: 14px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #324b50;
+      border-radius: 4px;
+      font-size: 14px;
+      font-family: Arial, sans-serif;
+      resize: vertical;
+    }
+
+    button {
+      background-color: #324b50;
+      color: #e8f1f5;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: bold;
+      width: 100%;
+    }
+
+    button:hover {
+      background-color: #2f3e46;
+    }
+
+    footer {
+      padding: 15px;
+      background-color: #3a4d55;
+      color: #f2e9d8;
+      font-size: 14px;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        font-size: 16px;
+        margin: 0 6px;
+      }
+
+      header h2 {
+        font-size: 26px;
+      }
+
+      header p {
+        font-size: 16px;
+      }
+
+      form {
+        margin: 0 15px 30px;
+        padding: 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <a href="index.html">Welcome</a>
+    <a href="home.html">Home</a>
+    <a href="places.html">Places</a>
+    <a href="about.html">About</a>
+    <a href="adventure.html">Adventure</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <header>
+    <h2>Contact Ladakh Explorer</h2>
+    <p>Have questions or want to share your Ladakh experiences? Reach out to us!</p>
+  </header>
+
+  <form action="#" method="post">
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+
+  <footer>
+    © 2025 Ladakh Explorer | All Rights Reserved
+  </footer>
+
+</body>
+</html>
